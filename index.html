@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="cz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--general-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!--fonts-->
+    <!--Orbitron-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Dawning+of+a+New+Day&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Pacifico&family=Playwrite+HU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Dawning+of+a+New+Day&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Pacifico&family=Playwrite+HU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css" />
+    <title>Portfolio website</title>
+  </head>
+  <body>
+    <main>
+      <!--NAVIGATION-->
+      <header class="header">
+        <div class="header-icon">
+          <img src="images/logo.png" alt="Logo" />
+        </div>
+        <nav class="navigation">
+          <div class="menu-icon">
+            <img src="icons/icons8-menu-48.png" alt="Menu" id="menu-icon" />
+          </div>
+          <ul class="nav-list" id="nav-list">
+            <li class="navigation-item"><a href="index.html">Domů</a></li>
+            <li class="navigation-item"><a href="aboutme.html">O mně</a></li>
+            <li class="navigation-item">
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="navigation-item">
+              <a href="services.html">Služby a ceník</a>
+            </li>
+            <li class="navigation-item"><a href="blog.html">Blog</a></li>
+            <li class="navigation-item"><a href="contact.html">Kontakt</a></li>
+            <li class="language-switch">
+              <img
+                src="icons/icons8-language-48.png"
+                alt="Language"
+                id="language-icon"
+              />
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--HERO-SECTION-->
+      <section class="hero">
+        <div class="hero-wrapper">
+          <div class="hero-content">
+            <h2>Eliška Pecharová</h2>
+            <h3>FRONT- END DEVELOPER</h3>
+            <p>
+              Vytvářím moderní, responzivní a rychlé webové stránky s důrazem na
+              detail a výkon.
+            </p>
+            <a href="portfolio.html"
+              ><button class="portfolio">Zobrazit portfolio</button></a
+            >
+            <a
+              href="https://github.com/Eliska-Pecharova"
+              target="_blank"
+              class="btn-GitHub"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/eli%C5%A1ka-pecharov%C3%A1-445260380/"
+              target="_blank"
+              class="btn-linkedin"
+            >
+              LinkedIn
+            </a>
+          </div>
+          <div class="hero-image">
+            <img class="image-me" src="images/image-me.jpg" alt="" />
+          </div>
+          <a href="#about" class="hero-scroll">
+            <i class="fa-solid fa-chevron-down"></i>
+          </a>
+        </div>
+      </section>
+
+      <!--ABOUT-ME-SECTION-->
+      <section id="About-me" class="about-me-section">
+        <div class="about-me-wrapper">
+          <div class="about-me-content">
+            <h2>O mně</h2>
+            <p>
+              Jsem Front-end Developerka z Prahy. Tvořím moderní, responzivní
+              weby s důrazem na detail, čistý kód a intuitivní uživatelské
+              rozhraní. Baví mě spojovat design s funkčností a hledat chytrá
+              řešení, která klientům opravdu slouží.
+            </p>
+            <div class="about">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Kurz: Front-end Developer</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Kurz: React</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-code"></i>
+                  <span>Seniorita: Start-up/ Junior</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-language"></i>
+                  <span>Jazyky: Angličtina, Španělština</span>
+                </li>
+              </ul>
+            </div>
+            <div class="skills-icon">
+              <img src="icons/icons8-html-5-48.png" alt="" />
+              <img src="icons/icons8-css-48.png" alt="" />
+              <img src="icons/icons8-js-48.png" alt="" />
+              <img src="icons/icons8-typescript-48 (1).png" alt="" />
+              <img src="icons/icons8-react-native-48 (1).png" alt="" />
+              <img src="icons/icons8-nodejs-48.png" alt="" />
+              <img src="icons/icons8-figma-48 (1).png" alt="" />
+              <img src="icons/icons8-wordpress-48 (1).png" alt="" />
+            </div>
+            <a href="aboutme.html"
+              ><button class="about-me-btn">Více o mně</button></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!--PORTFOLIO-SECTION-->
+      <section id="Portfolio" class="portfolio-list">
+        <div class="portfolio-wrapper">
+          <h2>Portfolio projektů</h2>
+
+          <div class="project-grid">
+            <!-- Projekt 1 -->
+            <div class="project-card">
+              <a href="project1.html">
+                <img
+                  src="images/Project1.png"
+                  alt="Zahradnictví pod Skalou"
+                  class="project-img"
+                />
+              </a>
+              <div class="project-content">
+                <h3>Zahradnictví Pod Skalkou</h3>
+                <p>Web pro zahradnictví v Mníšku pod Brdy.</p>
+                <div class="skills">
+                  <span class="skill html">HTML</span>
+                  <span class="skill css">CSS</span>
+                </div>
+                <a href="project1.html" class="show-btn">Zobrazit projekt →</a>
+              </div>
+            </div>
+
+            <!-- Projekt 2 -->
+            <div class="project-card">
+              <a href="project2.html">
+                <img
+                  src="images/Project2.png"
+                  alt="Design Studio"
+                  class="project-img"
+                />
+              </a>
+              <div class="project-content">
+                <h3>Cestovatelský blog</h3>
+                <p>
+                  Kreativní cestovatelský blog vytvořený jako projekt v
+                  Engeto.cz
+                </p>
+                <div class="skills">
+                  <span class="skill html">HTML</span>
+                  <span class="skill css">CSS</span>
+                  <span class="skill js">JavaScript</span>
+                </div>
+                <a href="project2.html" class="show-btn">Zobrazit projekt →</a>
+              </div>
+            </div>
+
+            <!--Projekt 3-->
+            <div class="project-card">
+              <a href="project3.html">
+                <img
+                  src="images/Project3.png"
+                  alt="Design Studio"
+                  class="project-img"
+                />
+              </a>
+              <div class="project-content">
+                <h3>Netflix</h3>
+                <p>
+                  Kreativní stránka Netflixu vytvořená jako druhý projekt v
+                  Engeto.cz
+                </p>
+                <div class="skills">
+                  <span class="skill html">HTML</span>
+                  <span class="skill css">CSS</span>
+                  <span class="skill js">JavaScript</span>
+                  <span class="skill js">Typescript</span>
+                </div>
+                <a href="project3.html" class="show-btn">Zobrazit projekt →</a>
+              </div>
+            </div>
+
+            <!--Projekt 4-->
+            <div class="project-card">
+              <a href="project4.html">
+                <img
+                  src="images/Project4.png"
+                  alt="Design Studio"
+                  class="project-img"
+                />
+              </a>
+              <div class="project-content">
+                <h3>Web pro kreativní chatu Arnica</h3>
+                <p>Web pro ...</p>
+                <div class="skills">
+                  <span class="skill html">HTML</span>
+                  <span class="skill css">CSS</span>
+                  <span class="skill js">JavaScript</span>
+                  <span class="skill js">Typescript</span>
+                </div>
+                <a href="project4.html" class="show-btn">Zobrazit projekt →</a>
+              </div>
+            </div>
+            <div class="portfolio-more">
+              <a href="portfolio.html" class="more-projects-link">
+                <span>Zobrazit všechny projekty</span>
+                <i class="fa-solid fa-angles-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--CONTACT-SECTION-->
+      <section class="contact-preview">
+        <h2>Pojďme se spojit</h2>
+        <p>
+          Máte-li nějaké dotazy nebo potřebujete další informace,<br />neváhejte
+          se na mě obrátit.
+        </p>
+        <a href="contact.html" class="btn-contact">Kontaktovat</a>
+      </section>
+
+      <!--ARROW-SECTION-->
+      <section class="arrow-section" id="scrollToTop">
+        <button class="arrow-btn">
+          <i class="fa-solid fa-circle-chevron-up"></i>
+        </button>
+      </section>
+
+      <!--FOOTER-->
+      <footer>
+        <div class="footer-copywright">
+          © 2025 - by Eliska Pecharova. All Rights Reserved.
+        </div>
+      </footer>
+    </main>
+    <script src="dist/script.js" defer></script>
+    <script src="dist/language-switch.js" defer></script>
+    <script src="dist/menu.js" defer></script>
+  </body>
+</html>

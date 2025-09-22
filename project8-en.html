@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--fonts-->
+    <!--Orbitron-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Dawning+of+a+New+Day&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Pacifico&family=Playwrite+HU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Dawning+of+a+New+Day&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Pacifico&family=Playwrite+HU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Aswer Generator</title>
+    <link rel="stylesheet" href="css/Projects.css" />
+    <link rel="stylesheet" href="css/query.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header-wrapper">
+      <header class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo EP" />
+        </div>
+        <li class="language-switch">
+          <img src="icons/icons8-language-48.png" alt="" id="language-icon" />
+        </li>
+        <nav class="nav-buttons">
+          <a href="index.html" class="nav-btn">Home</a>
+          <a href="portfolio.html" class="nav-btn"> Portfolio of projects</a>
+        </nav>
+      </header>
+    </div>
+
+    <!-- INTRO -->
+    <section class="intro">
+      <div class="intro-wrapper" id="intro">
+        <h1>Answer Generator</h1>
+        <p>
+          An interactive web application for generating random answers. The
+          project combines simple logic in TypeScript with a modern visual style
+          — including an animated background with question marks, a clear
+          interface, and buttons for generating and resetting. Suitable for fun
+          use, testing, or as part of a portfolio.
+        </p>
+        <p>
+          This project was created as my first larger web application, when I
+          was just getting acquainted with JavaScript and TypeScript. I
+          gradually mastered working with the DOM, events, and type safety, and
+          created a functional response generator with clean code and a clear
+          structure.
+        </p>
+
+        <p>
+          The result is a modern, responsive website with interactive elements,
+          a stylish background, and intuitive controls. The project serves not
+          only as a demonstration of technical skills, but also as a playful
+          tool for brainstorming, presentations, or entertainment.
+        </p>
+        <div class="tech-icons">
+          <img src="icons/icons8-html-5-48.png" alt="HTML" />
+          <img src="icons/icons8-css-48.png" alt="CSS" />
+          <img src="icons/icons8-js-48.png" alt="JavaScript" />
+          <img src="icons/icons8-typescript-48 (1).png" alt="Typescript" />
+        </div>
+      </div>
+    </section>
+
+    <!--SOCIAL-->
+    <section class="social">
+      <div class="social">
+        <a href="https://github.com/Eliska-Pecharova" target="_blank">GitHub</a>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects">
+      <div class="projects-wrapper" id="projects">
+        <div class="project">
+          <img src="image/answergenerator.png" alt="Aswer generetor" />
+          <h3>Answer Generetor</h3>
+          <p>Random answer generator - home page, just waiting for a click.</p>
+        </div>
+        <div class="project">
+          <img src="image/answerA.png" alt="Odpověď" />
+          <img src="image/answerB.png" alt="Odpověď" />
+          <h3>Offer possible answers</h3>
+          <p>Selection of possible answers.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO DEMO -->
+    <section class="video-demo">
+      <div class="video-wrapper">
+        <h2>Demonstration of how the site works</h2>
+        <video controls width="100%">
+          <source
+            src="video/Záznam Project Answer Generator.mp4"
+            type="video/mp4"
+          />
+
+          Your browser does not support video playback.
+        </video>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer-wrapper">
+      <footer class="footer">
+        <p>© 2025 – By Eliska Pecharova. All Rights Reserved.</p>
+      </footer>
+    </div>
+    <script src="dist/language-switch.js" defer></script>
+    <script src="dist/menu.js" defer></script>
+  </body>
+</html>

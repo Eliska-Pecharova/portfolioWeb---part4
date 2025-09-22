@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="cz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--general-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!--fonts-->
+    <!--Orbitron-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Dawning+of+a+New+Day&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Pacifico&family=Playwrite+HU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Dawning+of+a+New+Day&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Pacifico&family=Playwrite+HU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/aboutme.css" />
+    <link rel="stylesheet" href="css/query.css" />
+    <title>About Me website</title>
+  </head>
+  <body>
+    <main>
+      <!--NAVIGATION-->
+      <header class="header">
+        <div class="header-icon">
+          <img src="images/logo.png" alt="Logo" />
+        </div>
+        <nav class="navigation">
+          <div class="menu-icon">
+            <img src="icons/icons8-menu-48.png" alt="Menu" id="menu-icon" />
+          </div>
+          <ul class="nav-list" id="nav-list">
+            <li class="navigation-item"><a href="index.html">Domů</a></li>
+            <li class="navigation-item"><a href="aboutme.html">O mně</a></li>
+            <li class="navigation-item">
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="navigation-item">
+              <a href="services.html">Služby a ceník</a>
+            </li>
+            <li class="navigation-item"><a href="blog.html">Blog</a></li>
+            <li class="navigation-item"><a href="contact.html">Kontakt</a></li>
+            <li class="language-switch">
+              <img
+                src="icons/icons8-language-48.png"
+                alt="Language"
+                id="language-icon"
+              />
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--HERO-SECTION-->
+      <section class="hero-section">
+        <div class="hero-wrapper">
+          <!-- Levá část: text -->
+          <div class="hero-text">
+            <h1>Jsem Eliška Pecharová</h1>
+            <p class="subtitle">webová vývojářka, která tvoří srdcem.</p>
+            <a href="portfolio.html" class="hero-button"
+              >Prohlédni si mé portfolio</a
+            >
+          </div>
+
+          <!-- Pravá část: ilustrace -->
+          <div class="hero-visual">
+            <img
+              src="images/illustration.png"
+              alt="Eliška Pecharová u laptopu s glóbem a UI náhledem"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Kdo jsem -->
+      <section class="about-me-section">
+        <div class="about-me-container">
+          <h2>Kdo jsem?</h2>
+          <p>
+            Jsem webová vývojářka, která miluje čistý design, funkční řešení a
+            digitální prostor, kde se technika potkává s kreativitou. Baví mě
+            tvořit weby, které nejsou jen hezké na pohled, ale dávají smysl a
+            slouží lidem.
+          </p>
+          <p>
+            Mám cit pro detail, ráda se učím nové věci a věřím v poctivý přístup
+            k práci. Každý projekt beru jako příležitost posunout se dál —
+            technicky i lidsky.
+          </p>
+          <p>
+            Když zrovna nekóduji, inspiruji se designem kolem sebe, cestuji a
+            hledám nové způsoby, jak spojit estetiku s funkčností.
+          </p>
+        </div>
+      </section>
+
+      <!-- Moje cesta -->
+      <section class="timeline-section">
+        <h2>Moje cesta</h2>
+        <div class="timeline-track">
+          <div class="timeline-node">
+            <div class="timeline-icon">🎓</div>
+            <h3>Začátek v uniformě</h3>
+            <p>
+              Vystudovala jsem Policejní akademii České republiky v Praze.
+              Studium mi dalo disciplínu, zodpovědnost a schopnost dotahovat
+              věci do konce.
+            </p>
+          </div>
+          <div class="timeline-node">
+            <div class="timeline-icon">✈️</div>
+            <h3>Svět mě volal</h3>
+            <p>
+              Po škole mě zlákalo cestování, které mi otevřelo oči a přivedlo mě
+              k myšlence pracovat odkudkoliv na světě.
+            </p>
+          </div>
+          <div class="timeline-node">
+            <div class="timeline-icon">📝</div>
+            <h3>Blog jako most</h3>
+            <p>
+              Chtěla jsem vytvořit cestovatelský blog, který by sloužil jako
+              inspirace i vzdělávací nástroj pro ostatní nadšence.
+            </p>
+          </div>
+          <div class="timeline-node">
+            <div class="timeline-icon">💻</div>
+            <h3>Kód jako klíč</h3>
+            <p>
+              Rozhodla jsem se obrátit na vzdělávací institut Engeto.cz a
+              vystudovat Front-end Developering. Díky tomu se moje vize stává
+              realitou — tvořím weby, které mají duši.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Co mě odlišuje -->
+      <section class="unique-section">
+        <div class="unique-container">
+          <h2>Co mě odlišuje</h2>
+
+          <div class="unique-content">
+            <div class="unique-text">
+              <div class="unique-point">
+                <h3>🎨 Spojuji strukturu s kreativitou</h3>
+                <p>
+                  Mám za sebou studium na Policejní akademii, které mi dalo
+                  disciplínu a důslednost. Ale zároveň miluju vizuální svět,
+                  design a svobodu tvorby.
+                </p>
+              </div>
+              <div class="unique-point">
+                <h3>👥 Myslím jako uživatel</h3>
+                <p>
+                  Vžiju se do něj, aby web fungoval. Chápu, že lidé chtějí mít
+                  věci rychle, přehledně, jednoduše. A přesně takové weby
+                  tvořím.
+                </p>
+              </div>
+              <div class="unique-point">
+                <h3>⚡ Učím se rychle a s chutí</h3>
+                <p>
+                  Webový vývoj je pro mě neustálá výzva — pořád se učím nové
+                  věci a rozšiřuju si rozhled.
+                </p>
+              </div>
+              <div class="unique-point">
+                <h3>❤️ Tvořím srdcem</h3>
+                <p>
+                  Pro mě není kód technika, ale způsob, jak tvořit něco
+                  krásného, co má smysl. Weby které tvořím, mají duši — protože
+                  je tvořím srdcem.
+                </p>
+              </div>
+            </div>
+
+            <div class="unique-image">
+              <img src="images/globe.png" alt="Cesta kolem světa" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--ARROW-SECTION-->
+      <section class="arrow-section" id="scrollToTop">
+        <button class="arrow-btn">
+          <i class="fa-solid fa-circle-chevron-up"></i>
+        </button>
+      </section>
+
+      <!--FOOTER-->
+      <footer>
+        <div class="footer-copywright">
+          © 2025 - by Eliska Pecharova. All Rights Reserved.
+        </div>
+      </footer>
+    </main>
+    <script src="dist/script.js" defer></script>
+    <script src="dist/language-switch.js" defer></script>
+    <script src="dist/menu.js" defer></script>
+  </body>
+</html>

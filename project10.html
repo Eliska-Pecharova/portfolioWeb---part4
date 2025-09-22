@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="cz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--fonts-->
+    <!--Orbitron-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Dawning+of+a+New+Day&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Pacifico&family=Playwrite+HU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Dawning+of+a+New+Day&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Pacifico&family=Playwrite+HU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock, paper, scissors game</title>
+    <link rel="stylesheet" href="css/Projects.css" />
+    <link rel="stylesheet" href="css/query.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header-wrapper">
+      <header class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo EP" />
+        </div>
+        <li class="language-switch">
+          <img src="icons/icons8-language-48.png" alt="" id="language-icon" />
+        </li>
+        <nav class="nav-buttons">
+          <a href="index.html" class="nav-btn">Domů</a>
+          <a href="portfolio.html" class="nav-btn">Portfolio projektů</a>
+        </nav>
+      </header>
+    </div>
+
+    <!-- INTRO -->
+    <section class="intro">
+      <div class="intro-wrapper" id="intro">
+        <h1>Rock, paper, scissors game</h1>
+        <p>
+          Interaktivní webová hra „Kámen, nůžky, papír“ představuje klasickou
+          logiku rozhodování v moderním kabátě. Projekt využívá čistý
+          JavaScript/TypeScript pro zpracování tahů hráče i počítače, přehledné
+          skóre a dynamický výpis výsledků. Design je laděn do kontrastního
+          stylu s vlastními ilustracemi rukou, tematickým pozadím a responzivním
+          rozvržením pro mobilní i desktopové zobrazení.
+        </p>
+
+        <p>
+          Hra vznikla jako cvičení v práci s DOMem, událostmi a stavovou
+          logikou. Zaměřila jsem se na intuitivní ovládání, vizuální přehlednost
+          a možnost rozšíření o další funkce (např. reset skóre, animace,
+          zvukové efekty). Výsledkem je hravá miniaplikace, která propojuje
+          zábavu s technickou precizností a citlivým UI designem.
+        </p>
+        <div class="tech-icons">
+          <img src="icons/icons8-html-5-48.png" alt="HTML" />
+          <img src="icons/icons8-css-48.png" alt="CSS" />
+          <img src="icons/icons8-js-48.png" alt="JavaScript" />
+        </div>
+      </div>
+    </section>
+
+    <!--SOCIAL-->
+    <section class="social">
+      <div class="social">
+        <a href="https://github.com/Eliska-Pecharova" target="_blank">GitHub</a>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects">
+      <div class="projects-wrapper" id="projects">
+        <div class="project">
+          <img src="image/Rock,paper,scissors.png" alt="Aswer generetor" />
+          <h3>Rock, paper, scissors game</h3>
+          <p>Úvodní náhled na hru kámen, nůžky, papír.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO DEMO -->
+    <section class="video-demo">
+      <div class="video-wrapper">
+        <h2>Ukázka fungování webu</h2>
+        <video controls width="100%">
+          <source
+            src="video/Záznam Rock,paper,scissors game.mp4"
+            type="video/mp4"
+          />
+          Váš prohlížeč nepodporuje přehrávání videa.
+        </video>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer-wrapper">
+      <footer class="footer">
+        <p>© 2025 – By Eliška Pecharová. All Rights Reserved.</p>
+      </footer>
+    </div>
+    <script src="dist/language-switch.js" defer></script>
+    <script src="dist/menu.js" defer></script>
+  </body>
+</html>
